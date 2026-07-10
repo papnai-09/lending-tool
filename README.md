@@ -2,7 +2,7 @@
 
 Ticket: ENG-159708
 
-A dependency-free, feature-complete CRUD interface for a floor staff tool lending workflow.
+A React + Vite feature-complete CRUD interface for a floor staff tool lending workflow.
 
 ## Features
 
@@ -18,10 +18,11 @@ A dependency-free, feature-complete CRUD interface for a floor staff tool lendin
 
 ## Run
 
-Open `index.html` in a browser, or serve the folder with any static web server.
+Install and run locally:
 
 ```powershell
-node server.mjs 8080
+npm install
+npm run dev
 ```
 
-Then visit `http://localhost:8080`.
+Then open the local URL shown by Vite.
